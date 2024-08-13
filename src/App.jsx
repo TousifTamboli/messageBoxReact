@@ -19,7 +19,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("mongodb://localhost:5000" / api / form, {
+      const response = await fetch("http://localhost:5000/api/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
